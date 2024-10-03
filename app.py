@@ -29,7 +29,7 @@ fig.update_layout(
 
 app = dash.Dash(__name__)
 app.title = "Precious Metal Prices 2018-2021"
-
+server = app.server
 app.layout = html.Div(
     id="app-container",
     children=[
